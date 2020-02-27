@@ -20,8 +20,8 @@
     float: left;
     position: relative;
     margin: 30px;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 .sun-face {
     position: absolute;
@@ -256,7 +256,7 @@
     transform:rotate(144deg);
 }
 .sun-light:nth-child(10n+10) {
-    -webkit-transform:rotate(162deg);
+    -webkit-transform:rotate(165deg);
     -moz-transform:rotate(162deg);
     -o-transform:rotate(162deg);
     -ie-transform:rotate(162deg);
