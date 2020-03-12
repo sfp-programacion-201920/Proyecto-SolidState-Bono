@@ -46,7 +46,6 @@ blockquote, q {
 		content: none;
 	}
 
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -100,8 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #0ea7af;
-		background-image: linear-gradient(to top, rgba(0, 255, 255, 0.8), rgba(196, 0, 0, 0.8)), url("../../images/bg.jpg");
+		background-color: #2e3141;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -176,7 +175,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(182, 10, 10, 0.35);
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		color: #ffffff;
 		text-decoration: none;
 	}
@@ -217,7 +216,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out;
 				border-radius: 100%;
-				border: solid 2px rgba(21, 233, 2, 0.125);
+				border: solid 2px rgba(255, 255, 255, 0.125);
 				content: '\f105';
 				display: inline-block;
 				font-size: 1.25em;
@@ -231,11 +230,11 @@ input, select, textarea {
 			}
 
 			a.special:not(.button):hover:before {
-				background-color: rgba(6, 255, 60, 0.025);
+				background-color: rgba(255, 255, 255, 0.025);
 			}
 
 			a.special:not(.button):active:before {
-				background-color: rgba(214, 250, 10, 0.075);
+				background-color: rgba(255, 255, 255, 0.075);
 			}
 
 	strong, b {
@@ -272,7 +271,7 @@ input, select, textarea {
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
-			border-bottom: solid 2px rgba(4, 193, 250, 0.125);
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		}
 
 	h2 {
@@ -320,16 +319,16 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px rgba(0, 238, 12, 0.125);
+		border-left: solid 4px rgba(255, 255, 255, 0.125);
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
 
 	code {
-		background: rgba(206, 5, 5, 0.025);
+		background: rgba(255, 255, 255, 0.025);
 		border-radius: 5px;
-		border: solid 2px rgba(255, 255, 255, 0.);
+		border: solid 2px rgba(255, 255, 255, 0.125);
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -2794,13 +2793,13 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(102, 9, 9, 0.125);
+			border: solid 1px rgba(255, 255, 255, 0.125);
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(211, 7, 7, 0.025);
+				background-color: rgba(255, 255, 255, 0.025);
 			}
 
 		table td {
@@ -2820,7 +2819,7 @@ input, select, textarea {
 		}
 
 		table tfoot {
-			border-top: solid 2px rgba(170, 242, 255, 0.125);
+			border-top: solid 2px rgba(255, 255, 255, 0.125);
 		}
 
 		table.alt {
@@ -2828,7 +2827,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px rgba(5, 233, 43, 0.125);
+				border: solid 1px rgba(255, 255, 255, 0.125);
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -3006,7 +3005,7 @@ input, select, textarea {
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #2ab126;
+			background-color: #353849;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -3466,8 +3465,8 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #00defc;
-				background-image: linear-gradient(to top, rgba(115, 255, 0, 0.8), rgba(9, 25, 110, 0.8)), url("../../images/bg.jpg");
+				background-color: #2e3141;
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3579,7 +3578,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(130, 155, 20, 0.8), rgba(18, 173, 194, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
@@ -3780,7 +3779,7 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #c22a0fbd, 0 1px 0 0 #4c9396;
+				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3841,7 +3840,7 @@ input, select, textarea {
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #14a099, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
 				}
 
 			.wrapper.spotlight.style3 {
